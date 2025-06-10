@@ -1,0 +1,6 @@
+@ComidasTipicasDelSur.API_HostAddress = http://localhost:5067
+
+GET {{ComidasTipicasDelSur.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

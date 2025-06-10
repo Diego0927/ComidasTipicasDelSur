@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComidasTipicasDelSur.API", "ComidasTipicasDelSur.API\ComidasTipicasDelSur.API.csproj", "{08505FC3-88F5-43B4-9483-8DF220D99D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComidasTipicasDelSur.Domain", "ComidasTipicasDelSur.Domain\ComidasTipicasDelSur.Domain.csproj", "{6012C46B-E78B-44BA-B20F-5873CD915422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComidasTipicasDelSur.Application", "ComidasTipicasDelSur.Application\ComidasTipicasDelSur.Application.csproj", "{1C0F535A-E5F0-4665-9FB3-F614ECE73C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComidasTipicasDelSur.Infrastructure", "ComidasTipicasDelSur.Infrastructure\ComidasTipicasDelSur.Infrastructure.csproj", "{E0F18E73-7F84-4B64-A996-F4E33CC03E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComidasTipicasDelSur.Tests", "ComidasTipicasDelSur.Tests\ComidasTipicasDelSur.Tests.csproj", "{C49E1E0C-95E4-4DFA-9245-E9286C6D72B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComidasTipicasDelSur.Shared", "ComidasTipicasDelSur.Shared\ComidasTipicasDelSur.Shared.csproj", "{00104891-A2C1-4EE1-BED5-442C7B88DD7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08505FC3-88F5-43B4-9483-8DF220D99D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08505FC3-88F5-43B4-9483-8DF220D99D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08505FC3-88F5-43B4-9483-8DF220D99D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08505FC3-88F5-43B4-9483-8DF220D99D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6012C46B-E78B-44BA-B20F-5873CD915422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6012C46B-E78B-44BA-B20F-5873CD915422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6012C46B-E78B-44BA-B20F-5873CD915422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6012C46B-E78B-44BA-B20F-5873CD915422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0F535A-E5F0-4665-9FB3-F614ECE73C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0F535A-E5F0-4665-9FB3-F614ECE73C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0F535A-E5F0-4665-9FB3-F614ECE73C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0F535A-E5F0-4665-9FB3-F614ECE73C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F18E73-7F84-4B64-A996-F4E33CC03E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F18E73-7F84-4B64-A996-F4E33CC03E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F18E73-7F84-4B64-A996-F4E33CC03E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F18E73-7F84-4B64-A996-F4E33CC03E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49E1E0C-95E4-4DFA-9245-E9286C6D72B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49E1E0C-95E4-4DFA-9245-E9286C6D72B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49E1E0C-95E4-4DFA-9245-E9286C6D72B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49E1E0C-95E4-4DFA-9245-E9286C6D72B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00104891-A2C1-4EE1-BED5-442C7B88DD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00104891-A2C1-4EE1-BED5-442C7B88DD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00104891-A2C1-4EE1-BED5-442C7B88DD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00104891-A2C1-4EE1-BED5-442C7B88DD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7936881-F334-4C6A-AA44-C4F6931BC65C}
+	EndGlobalSection
+EndGlobal
