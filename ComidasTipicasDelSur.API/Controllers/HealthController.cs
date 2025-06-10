@@ -26,7 +26,7 @@ public class HealthController(AppDbContext context, ILogger<HealthController> lo
                 {
                     Status = "Connected",
                     Message = "Base de datos conectada correctamente",
-                    ConnectionString = MaskConnectionString(connectionString),
+                    ConnectionString = MaskConnectionString(connectionString ?? string.Empty),
                     Timestamp = DateTime.Now
                 });
             }

@@ -54,7 +54,7 @@ namespace ComidasTipicasDelSur.Application.Services
                 IdDetalleXFactura = detalleFacturaDto.IdDetalleXFactura,
                 NroFactura = detalleFacturaDto.NroFactura,
                 IdSupervisor = detalleFacturaDto.IdSupervisor,
-                Plato = detalleFacturaDto.Plato,
+                Plato = detalleFacturaDto.Plato ?? string.Empty,
                 Valor = detalleFacturaDto.Valor
             };
 
@@ -72,7 +72,7 @@ namespace ComidasTipicasDelSur.Application.Services
                 IdDetalleXFactura = detalleFacturaDto.IdDetalleXFactura,
                 NroFactura = detalleFacturaDto.NroFactura,
                 IdSupervisor = detalleFacturaDto.IdSupervisor,
-                Plato = detalleFacturaDto.Plato,
+                Plato = detalleFacturaDto.Plato ?? string.Empty,
                 Valor = detalleFacturaDto.Valor
             };
 

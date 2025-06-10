@@ -52,7 +52,7 @@ namespace ComidasTipicasDelSur.Application.Services
             var factura = new Factura
             {
                 NroFactura = facturaDto.NroFactura,
-                IdCliente = facturaDto.IdCliente,
+                IdCliente = facturaDto.IdCliente ?? string.Empty,
                 NroMesa = facturaDto.NroMesa,
                 IdMesero = facturaDto.IdMesero,
                 Fecha = facturaDto.Fecha
@@ -70,7 +70,7 @@ namespace ComidasTipicasDelSur.Application.Services
             var facturaActualizada = new Factura
             {
                 NroFactura = facturaDto.NroFactura,
-                IdCliente = facturaDto.IdCliente,
+                IdCliente = facturaDto.IdCliente ?? string.Empty,
                 NroMesa = facturaDto.NroMesa,
                 IdMesero = facturaDto.IdMesero,
                 Fecha = facturaDto.Fecha

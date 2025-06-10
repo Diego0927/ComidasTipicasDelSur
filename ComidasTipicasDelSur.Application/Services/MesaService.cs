@@ -50,7 +50,7 @@ namespace ComidasTipicasDelSur.Application.Services
             var mesa = new Mesa
             {
                 NroMesa = mesaDto.NroMesa,
-                Nombre = mesaDto.Nombre,
+                Nombre = mesaDto.Nombre ?? string.Empty,
                 Reservada = mesaDto.Reservada,
                 Puestos = mesaDto.Puestos
             };
