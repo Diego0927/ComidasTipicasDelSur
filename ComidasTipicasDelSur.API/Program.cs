@@ -77,8 +77,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 var app = builder.Build();
 
 // Configuración del middleware
+if (app.Environment.IsDevelopment())
+{
     app.UseSwagger();
     app.UseSwaggerUI();
+}
 
 app.MapGet("/", () => "API Comidas Típicas del Sur está funcionando");
 app.UseAuthorization();
