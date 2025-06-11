@@ -8,7 +8,9 @@ using ComidasTipicasDelSur.Infrastructure.Repositories;
 using Oracle.ManagedDataAccess.Client;
 
 // Configuración inicial del wallet
-OracleConfiguration.TnsAdmin = @"C:\Users\diego\source\repos\ComidasTipicasDelSur\Wallet_comidasdb";
+var walletPath = Path.Combine(AppContext.BaseDirectory, "Wallet");
+OracleConfiguration.TnsAdmin = walletPath;
+OracleConfiguration.WalletLocation = walletPath;
 OracleConfiguration.WalletLocation = OracleConfiguration.TnsAdmin;
 OracleConfiguration.SqlNetEncryptionClient = "REQUIRED";
 OracleConfiguration.SqlNetAuthenticationServices = "TCPS";
@@ -68,19 +70,17 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     });
 
     // Habilita logging detallado para diagnóstico
-    options.EnableSensitiveDataLogging();
+    options.EnableSensitiveDataLogging(false);
     options.EnableDetailedErrors();
     options.LogTo(Console.WriteLine, LogLevel.Information);
 });
 var app = builder.Build();
 
 // Configuración del middleware
-if (app.Environment.IsDevelopment())
-{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
 
+app.MapGet("/", () => "API Comidas Típicas del Sur está funcionando");
 app.UseAuthorization();
 app.MapControllers();
 

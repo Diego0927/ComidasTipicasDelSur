@@ -20,6 +20,9 @@
     <ProjectReference Include="..\ComidasTipicasDelSur.Application\ComidasTipicasDelSur.Application.csproj" />
     <ProjectReference Include="..\ComidasTipicasDelSur.Infrastructure\ComidasTipicasDelSur.Infrastructure.csproj" />
     <ProjectReference Include="..\ComidasTipicasDelSur.Shared\ComidasTipicasDelSur.Shared.csproj" />
+    <None Update="Wallet\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
